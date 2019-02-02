@@ -1,0 +1,147 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<title>Music Survey</title>
+		<meta charset="utf-8">
+		<link href="https://fonts.googleapis.com/css?family=Open+Sans:400,700" rel="stylesheet">
+		<style>
+		body {
+			font-family: "Open Sans", sans-serif;
+		}
+		
+		header {
+			font-weight: bold;
+			text-align: center;
+			font-size: 36px;
+			margin-bottom: 0px;
+			padding-bottom: 0px;
+			line-height: 20px;
+		}
+		
+		#caption {
+			width: 100%;
+			text-align: center;
+			font-style: italic;
+			font-size: 15px;
+			margin-bottom: 15px;
+		}
+		
+		div.row {
+    		display: table;
+    		width: 100%;
+    		table-layout: fixed;
+    		margin-bottom: 20px;
+		}
+		div.row .cell {
+    		display: table-cell;
+    		text-align: center;
+		}
+		
+		div.row .cell fieldset {
+			height: 220px;
+		}
+				
+		div.row .cell textarea {
+			height: 210px;
+		}
+		
+		fieldset {
+			text-align: left;
+		}
+		
+		fieldset legend {
+			background-color: white;
+		}
+		
+		footer { 
+			margin-top: 100px;
+			text-align: center;
+		}
+		p {
+			padding: 0px;
+			margin: 0px;
+		}
+		
+		#contact:after {
+				content: 'Carter Brehm';
+		}
+		#contact:hover:after {
+				content: 'crbrehm@mail.mccneb.edu';
+		}
+		
+		
+		</style>
+	</head>
+	<body>
+		<!-- Carter Brehm
+		music_survey.html
+		INFO1311.PLA
+		Olberding
+		January 29th, 2018
+		-->
+		<header>
+			<h1>Music Survey</h1>
+		</header>
+		<p id="caption">Please fill out this form so that we can better understand the role that music plays in peoples' lives.</p>
+		<form>
+			<div class="row">
+				<div class="cell">
+					<p>First Name:</p>
+					<input type="text">
+				</div>
+				<div class="cell">
+					<p>Last Name:</p>
+					<input type="text">
+				</div>
+				<div class="cell">
+					<p>Email:</p>
+					<input type="text">
+				</div>
+			</div>
+			<div class="row">
+				<div class="cell">
+					<fieldset>
+						<legend>Select your favorite types of music:</legend>
+						<input type="checkbox" value="Pop">Pop<br>
+						<input type="checkbox" value="Classical">Classical<br>
+						<input type="checkbox" value="Rock">Rock<br>
+						<input type="checkbox" value="Folk">Folk<br>
+						<input type="checkbox" value="Rap">Rap<br>
+						<input type="checkbox" value="Other">Other
+					</fieldset>
+				</div>
+				<div class="cell">
+					<fieldset>
+						<legend>Select how often you purchase music CDs:</legend>
+						<input type="radio" name="frequency" value="Weekly">Weekly<br>
+						<input type="radio" name="frequency" value="Few">A few CDs each year<br>
+						<input type="radio" name="frequency" value="Monthly">Monthly<br>
+						<input type="radio" name="frequency" value="Never">Never purchase<br>
+						<br>
+						<p>Where do you purchase these CDs?</p>
+						<select>
+							<option></option>
+							<option value="Online">Online</option>
+							<option value"Retail">Retail</option>
+							<option value="Other2">Other</option>
+						</select>
+					</fieldset>
+				</div>	
+				<div class="cell">
+					<p>What role does music play in your life?</p>
+					<textarea cols="60"></textarea>
+				</div>		 
+			</div>
+			<div class="row">
+				<div class="cell">
+					<input type="submit">
+				</div>
+				<div class="cell">
+					<input type="reset">
+				</div>
+			</div>
+		<footer>
+			<p>Made with &#x2764; by <a id="contact" href="mailto:crbrehm@mail.mccneb.edu"></a></p>
+		</footer>
+	</body>
+</html>

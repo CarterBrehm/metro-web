@@ -1,0 +1,93 @@
+/*  Carter Brehm
+	pacificprint.css
+	INFO1311.PLA
+	Olberding
+	1/17/19
+*/
+
+header, nav, main, footer {
+	display: block;
+}
+
+body {
+	background-color: #FFFFFF;
+	background-image: url(background.jpg);
+	font-family: Verdana, Arial, sans-serif;
+}
+
+#wrapper {
+	width: 100%;
+	max-width: 1024px;
+	margin-right: auto;
+	margin-left: auto;
+	background-color: #90C7E3;
+}
+
+header {
+	background-color: #000033;
+	font-family: Georgia, serif;
+}
+
+h1 {
+	line-height: 200%;	
+	background-repeat: no-repeat;
+	background-position: right;
+	padding-left: 20px;
+	height: 72px;
+	margin-bottom: 0;
+}
+
+nav {
+	display: none;
+}
+
+h2 {
+	font-family: Georgia, serif;
+}
+
+dt {
+	font-weight: bold;
+}
+
+.resort {
+	font-size: 1.2em;
+}
+
+footer {
+	font-size: 0.70em;
+	text-align: center;
+	font-style: italic;
+	padding: 10px;
+	margin-left: 170px;
+	background-color: #FFFFFF;
+}
+
+h3 {
+}
+
+main {
+	padding-left: 20px;
+	padding-right: 20px;
+	background-color: #FFFFFF;
+	margin-left: 0px;
+	padding-top: 1px;
+	padding-bottom: 1px;
+}
+
+main img {
+	float: left;
+	padding-right: 20px;
+	padding-bottom: 20px;
+}
+
+main ul {
+	list-style-position: inside;
+}
+
+.clear {
+	clear: both;
+}
+
+a {
+	color: black;
+}

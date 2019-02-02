@@ -1,0 +1,78 @@
+/*  Carter Brehm
+	prime.css
+	INFO1311.PLA
+	Olberding
+	1/8/19
+*/
+
+body {
+	background-color: #003366;
+	color: #ffffcc;
+	font-family: Arial, Helvetica, sans-serif;
+}
+
+#wrapper {
+	width: 680px;
+	margin-left: auto;
+	margin-right: auto;
+	background-color: #ffffcc;
+	color: #000066;
+	padding-left: 10px;
+	padding-top: 20px;
+	border-radius: 15px;
+}
+
+header {
+	text-align: center;
+}
+
+nav {
+	float: left;
+	width: 150px;
+}
+
+main {
+	margin-left: 150px;
+	padding-right: 20px;
+	padding-bottom: 20px;
+}
+
+footer {
+	font-size: 0.8em;
+	text-align: center;
+	border-top: 1px solid #003366;
+}
+
+.location {
+	font-weight: bold;
+	color: #003366;
+}
+
+.copyright {
+	font-style: italic;
+}
+
+
+/* The following styles were not in the instructions, but were required to make the sites match */
+nav ul {
+	list-style: none;
+	padding-left: 0px;
+}
+
+nav li {
+	margin-bottom: 18px;
+}
+
+footer {
+	padding-top: 15px;
+	padding-bottom: 7px;
+}
+
+footer * {
+	margin: 0px;
+	padding: 4px;
+}
+
+main {
+	display: block;
+}

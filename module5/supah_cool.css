@@ -1,0 +1,104 @@
+body {
+	background-color: #6600cc;
+	color: black;
+	font-family: Verdana, sans-serif;
+	margin: 0px;
+	padding: 0px;
+}
+
+#top {
+	background-color: #d4bfff;
+	margin: 20px 20px 0px 20px;
+	height: 100px;
+}
+
+#top img {
+	float: left;
+}
+
+#left {
+	position: fixed;
+	top: 130px;
+	left: 20px;
+	background-color: #d4bfff;
+	width: 30%;
+}
+
+#middle {
+	background-color: white;
+	justify-content: center;
+	margin-left: 30%;
+	margin-right: 30%;
+	padding: 10px;
+}
+
+#right {
+	position: fixed;
+	position: 20px 20px;
+	background-color: #d4bfff;
+	width: 30%;
+}
+
+h3 {
+	color: #6600cc;
+	letter-spacing: 5px;
+}
+
+.location {
+	color: #6600cc;
+	font-size: 13px;
+	font-style: italic;
+	font-weight: bold;
+	text-align: right;
+}
+
+address {
+	color: #6600cc;
+	font-size: 13px;
+	text-align: right;
+}
+
+.navlist {
+     padding: 0 1px 1px;
+     margin-left: 0;
+     font: bold 12px Verdana, sans-serif;
+     background: gray;
+     width: 13em;
+}
+
+.navlist li {
+     list-style: none;
+     margin: 0;
+     border-top: 1px solid gray;
+     text-align: left;
+}
+
+.navlist li a {
+     display: block;
+     padding: 0.25em 0.5em 0.25em 0.75em;
+     border-left: 1em solid #AAB;
+     background: #d4bfff;
+     text-decoration: none;
+}
+
+.navlist li a:link {
+     color: #448;
+}
+
+.navlist li a:visited {
+     color: #667;
+}
+
+.navlist li a:hover {
+     border-color: #FE3;
+     color: #FFF;
+     background: #332;
+}
+.navlist #current {
+	font-weight: bold;
+	color: #ce6bff;
+}
+
+
+ 
+
