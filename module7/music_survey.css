@@ -1,0 +1,70 @@
+body {
+    font-family: "Open Sans", sans-serif;
+    background-color: #fefefe;
+    color: #454545;
+    
+}
+
+header {
+    font-weight: bold;
+    text-align: center;
+    font-size: 36px;
+    margin-bottom: 0px;
+    padding-bottom: 0px;
+    line-height: 20px;
+}
+
+#caption {
+    width: 100%;
+    text-align: center;
+    font-style: italic;
+    font-size: 15px;
+    margin-bottom: 15px;
+}
+
+div.row {
+    display: table;
+    width: 100%;
+    table-layout: fixed;
+    margin-bottom: 20px;
+}
+div.row .cell {
+    display: table-cell;
+    text-align: center;
+}
+
+div.row .cell fieldset {
+    height: 220px;
+}
+        
+div.row .cell textarea {
+    height: 210px;
+}
+
+fieldset {
+    text-align: left;
+}
+
+fieldset legend {
+    background-color: white;
+}
+
+footer { 
+    margin-top: 100px;
+    text-align: center;
+}
+p {
+    padding: 0px;
+    margin: 0px;
+}
+
+#contact:after {
+        content: 'Carter Brehm';
+}
+#contact:hover:after {
+        content: 'crbrehm@mail.mccneb.edu';
+}
+
+legend {
+    font-size: 18px;
+}

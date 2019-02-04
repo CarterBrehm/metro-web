@@ -4,73 +4,7 @@
 		<title>Music Survey</title>
 		<meta charset="utf-8">
 		<link href="https://fonts.googleapis.com/css?family=Open+Sans:400,700" rel="stylesheet">
-		<style>
-		body {
-			font-family: "Open Sans", sans-serif;
-		}
-		
-		header {
-			font-weight: bold;
-			text-align: center;
-			font-size: 36px;
-			margin-bottom: 0px;
-			padding-bottom: 0px;
-			line-height: 20px;
-		}
-		
-		#caption {
-			width: 100%;
-			text-align: center;
-			font-style: italic;
-			font-size: 15px;
-			margin-bottom: 15px;
-		}
-		
-		div.row {
-    		display: table;
-    		width: 100%;
-    		table-layout: fixed;
-    		margin-bottom: 20px;
-		}
-		div.row .cell {
-    		display: table-cell;
-    		text-align: center;
-		}
-		
-		div.row .cell fieldset {
-			height: 220px;
-		}
-				
-		div.row .cell textarea {
-			height: 210px;
-		}
-		
-		fieldset {
-			text-align: left;
-		}
-		
-		fieldset legend {
-			background-color: white;
-		}
-		
-		footer { 
-			margin-top: 100px;
-			text-align: center;
-		}
-		p {
-			padding: 0px;
-			margin: 0px;
-		}
-		
-		#contact:after {
-				content: 'Carter Brehm';
-		}
-		#contact:hover:after {
-				content: 'crbrehm@mail.mccneb.edu';
-		}
-		
-		
-		</style>
+		<link href="music_survey.css" rel="stylesheet" type="text/css">
 	</head>
 	<body>
 		<!-- Carter Brehm
@@ -83,11 +17,15 @@
 			<h1>Music Survey</h1>
 		</header>
 		<p id="caption">Please fill out this form so that we can better understand the role that music plays in peoples' lives.</p>
-		<form>
+		<form method="post" action="https://www.mccinfo.net/webresources/cgi-bin/formmail.asp">
+			<input name="recipient" type="hidden" value="crbrehm@mail.mccneb.edu">
+			<input type="hidden" name="subject" value="Form Results">
+			<input name="bgcolor" type="hidden" value="#fefefe"> 
+			<input type="hidden" name="text_color" value="#454545">
 			<div class="row">
 				<div class="cell">
 					<p>First Name:</p>
-					<input type="text">
+					<input type="text" name="realname">
 				</div>
 				<div class="cell">
 					<p>Last Name:</p>
@@ -95,7 +33,7 @@
 				</div>
 				<div class="cell">
 					<p>Email:</p>
-					<input type="text">
+					<input type="text" name="email">
 				</div>
 			</div>
 			<div class="row">
@@ -122,7 +60,7 @@
 						<select>
 							<option></option>
 							<option value="Online">Online</option>
-							<option value"Retail">Retail</option>
+							<option value="Retail">Retail</option>
 							<option value="Other2">Other</option>
 						</select>
 					</fieldset>
