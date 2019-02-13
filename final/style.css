@@ -23,7 +23,7 @@ header, main h2 {
     text-align: center;
     color: #313a40;
     font-family: 'Staatliches', cursive;
-    font-size: 48px;
+    font-size: 36px;
     line-height: 0;
     text-shadow: 2px 1px grey;
 }
@@ -33,7 +33,7 @@ nav {
     font-family: 'Staatliches', cursive;
 }
 
-main.block p {;
+main.block p {
     margin-bottom: 30px;
 }
 
@@ -97,7 +97,23 @@ a {
 }
 
 @media only screen and (max-width: 768px) {
-    body {
-      background-color: blue;
+    #wrapper {
+        margin: 0px;
     }
-  }
+
+    header {
+        font-size: 24px;
+    }
+
+    nav a {
+        font-size: 18px;
+    }
+
+    .block {
+        margin: 10px 0px 0px 0px;
+    }
+
+    p {
+        margin: inherit;
+    }
+}
