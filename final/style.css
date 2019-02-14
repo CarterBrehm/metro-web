@@ -63,14 +63,6 @@ div.row .cell {
     text-align: center;
 }
 
-#color-palate {
-    color: #313a40;
-    color: #608980;
-    color: #5aa4a9;
-    color: #dfdbae;
-    color: #e0a05c;
-}
-
 p {
     margin: 0px 50px 0px 50px;
 }
@@ -82,7 +74,17 @@ p {
     content: 'crbrehm@mail.mccneb.edu';
 }
 
-img {
+#building {
+    width: 400px;
+    height: 250px;
+    border-radius: 50%;
+    float:left;
+    shape-outside: ellipse();
+    margin-right: 15px;
+    margin-left: 15px;
+}
+
+.item img{
     width: 100%;
     height: 100%;
     object-fit: contain;
@@ -96,7 +98,7 @@ a {
     color: black;
 }
 
-@media only screen and (max-width: 7680px) {
+@media only screen and (max-width: 768px) {
     #wrapper {
         margin: 0px;
     }

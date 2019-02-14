@@ -1,15 +1,10 @@
 body {
     font-family: "Open Sans", sans-serif;
-    background: #232526; /* fallback for old browsers */
-    background: -webkit-linear-gradient(to top, #232526, #414345); /* Chrome 10-25, Safari 5.1-6 */
-    background: linear-gradient(to top, #232526, #414345); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
-    background-repeat: no-repeat;
-    background-attachment: fixed;
+    background-color: white;
 }
 
 .block {
     background-color: white;
-    box-shadow: 5px 5px black;
     padding: 10px;
     margin: 30px 30px 0px 30px;
     border-radius: 2px;
@@ -21,7 +16,7 @@ nav.block {
 
 header, main h2 {
     text-align: center;
-    color: #313a40;
+    color: black;
     font-family: 'Staatliches', cursive;
     font-size: 36px;
     line-height: 0;
@@ -42,7 +37,7 @@ footer {
 }
 
 nav a {
-    color: #313a40;
+    color: black;
     text-decoration: none;
     font-size: 30px;
 }
@@ -61,14 +56,6 @@ div.row {
 div.row .cell {
     display: table-cell;
     text-align: center;
-}
-
-#color-palate {
-    color: #313a40;
-    color: #608980;
-    color: #5aa4a9;
-    color: #dfdbae;
-    color: #e0a05c;
 }
 
 p {
@@ -104,4 +91,9 @@ a {
 	margin: 0px;
 	width: 100%;
 	height: 100%;
+}
+
+br {
+    display: none;
+    overflow: hidden;
 }
