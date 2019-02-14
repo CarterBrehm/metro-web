@@ -96,24 +96,12 @@ a {
     color: black;
 }
 
-@media only screen and (max-width: 7680px) {
-    #wrapper {
-        margin: 0px;
-    }
+.nav {
+	display: none;
+}
 
-    header {
-        font-size: 24px;
-    }
-
-    nav a {
-        font-size: 18px;
-    }
-
-    .block {
-        margin: 10px 0px 0px 0px;
-    }
-
-    p {
-        margin: inherit;
-    }
+#wrapper {
+	margin: 0px;
+	width: 100%;
+	height: 100%;
 }
