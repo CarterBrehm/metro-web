@@ -15,7 +15,7 @@ body {
     background-color: white;
     box-shadow: 5px 5px black;
     padding: 10px !important;
-    margin: 30px 30px 0px 30px !important;
+    margin: 30px 0px 0px 0px;
     border-radius: 2px;
 }
 
@@ -31,7 +31,6 @@ header, main h2 {
     line-height: 0;
     text-shadow: 2px 1px grey;
 }
-
 
 nav {
     font-family: 'Staatliches', cursive;
@@ -68,9 +67,9 @@ div.row .cell {
     text-align: center;
 }
 
-p {
+/* p {
     margin: 0px 50px 0px 50px;
-}
+} */
 
 #contact:after {
     content: 'Carter Brehm';
@@ -125,14 +124,26 @@ a {
     }
 
     #building {
-        width: 400px;
-        height: 250px;
+        width: 300px;
+        height: 187.5px;
         border-radius: unset;
         float: unset;
         shape-outside: unset;
     }
 
     main {
+        text-align: center;
+    }
+}
+
+@media only screen and (min-width: 769px) {
+    div.row-no-mobile {
+        display: table;
+        width: 100%;
+        table-layout: fixed;
+    }
+    div.row-no-mobile .cell-no-mobile {
+        display: table-cell;
         text-align: center;
     }
 }
