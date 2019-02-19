@@ -1,3 +1,7 @@
+* {
+    box-sizing: border-box;
+}
+
 body {
     font-family: "Open Sans", sans-serif;
     background: #232526; /* fallback for old browsers */
@@ -10,8 +14,8 @@ body {
 .block {
     background-color: white;
     box-shadow: 5px 5px black;
-    padding: 10px;
-    margin: 30px 30px 0px 30px;
+    padding: 10px !important;
+    margin: 30px 30px 0px 30px !important;
     border-radius: 2px;
 }
 
@@ -97,18 +101,6 @@ p {
 
 a {
     color: black;
-}
-
-video {
-    height: 25%;
-    width: 25%;
-    margin-bottom: 25px;
-    float: left;
-}
-
-#inline {
-    display: inline;
-    margin: 0px;
 }
 
 @media only screen and (max-width: 768px) {
