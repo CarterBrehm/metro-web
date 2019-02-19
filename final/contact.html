@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <title>Contact | Downtown Diner</title>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, viewport-fit=cover">
+    <link href="https://fonts.googleapis.com/css?family=Open+Sans" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Staatliches" rel="stylesheet">
+    <link href="style.css" rel="stylesheet" type="text/css" media="screen">
+    <link href="print.css" rel="stylesheet" type="text/css" media="print">
+</head>
+
+<body>
+    <!-- Carter Brehm
+		index.html
+		INFO1311.PLA
+		Olberding
+		Febuary 7th, 2018
+        -->
+    <div id="wrapper">
+        <header class="block">
+            <h1>Downtown Diner</h1>
+        </header>
+        <nav class="block nav">
+            <div class="row">
+                <a href="index.html" class="cell">Home</a>
+                <a href="history.html" class="cell">History</a>
+                <a href="specials.html" class="cell">Specials</a>
+                <a href="contact.html" class="cell">Contact Us</a>
+            </div>
+        </nav>
+        <main>
+            <div class="block">
+                <h2>Contact Us</h2>
+                <p style="text-align: center;">Please fill out the form below and we'll get back to you as soon as possible.</p>
+            </div>
+            <div class="block">
+                <form method="post" action="https://www.mccinfo.net/webresources/cgi-bin/formmail.asp">
+                    <input name="recipient" type="hidden" value="crbrehm@mail.mccneb.edu">
+                    <input type="hidden" name="subject" value="Form Results">
+                    <input name="required" type="hidden" value="realname,lastname,email">
+                    <input name="redirect" type="hidden" value="http://student.mccinfo.net/~crbrehm/final/return.html">
+                    <div class="row-no-mobile">
+                        <div class="cell-no-mobile">
+                            <p>*First Name:</p>
+                            <input type="text" name="realname">
+                        </div>
+                        <div class="cell-no-mobile">
+                            <p>*Last Name:</p>
+                            <input type="text" name="lastname">
+                        </div>
+                        <div class="cell-no-mobile">
+                            <p>*Email:</p>
+                            <input type="email" name="email">
+                        </div>
+                        <div class="cell-no-mobile" pattern="^[0-9-+s()]*$">
+                            <p>*Phone:</p>
+                            <input type="tel" name="phone">
+                        </div>
+                    </div>
+                    <p>How should we follow up with you?</p>
+                    <select name="location">
+                        <option value="" label="Select One"></option>
+                        <option value="Phone">Phone</option>
+                        <option value="Email">Email</option>
+                    </select>
+                    <div>
+                        <p>Questions/Comments:</p>
+                        <textarea name="role" cols="60"></textarea>
+                    </div>
+                    <div class="row">
+                        <div class="cell">
+                            <input type="submit">
+                        </div>
+                        <div class="cell">
+                            <input type="reset">
+                        </div>
+                    </div>
+                </form>
+            </div>
+        </main>
+        <footer class="block">
+            <a href="index.html" class="cell nav">Home</a>
+            <a href="history.html" class="cell nav">History</a>
+            <a href="specials.html" class="cell nav">Specials</a>
+            <a href="contact.html" class="cell nav">Contact Us</a>
+            <br><br>
+            <p>Copyright &copy; 2019 <br><a id="contact" href="mailto:crbrehm@mail.mccneb.edu"></a></p>
+        </footer>
+    </div>
+</body>
+
+</html>

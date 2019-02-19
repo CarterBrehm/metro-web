@@ -67,10 +67,6 @@ div.row .cell {
     text-align: center;
 }
 
-/* p {
-    margin: 0px 50px 0px 50px;
-} */
-
 #contact:after {
     content: 'Carter Brehm';
 }
@@ -100,6 +96,25 @@ div.row .cell {
 
 a {
     color: black;
+}
+
+video {
+    margin-top: 15px;
+    width: 400px;
+    height: 400px;
+}
+
+table {
+    width: 100%;
+    margin-left: 5%;
+}
+
+form {
+    text-align: center;
+}
+
+form * {
+    margin-bottom: 10px;
 }
 
 @media only screen and (max-width: 768px) {
@@ -145,5 +160,6 @@ a {
     div.row-no-mobile .cell-no-mobile {
         display: table-cell;
         text-align: center;
+        vertical-align: top;
     }
 }
