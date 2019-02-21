@@ -79,7 +79,7 @@ div.row .cell {
     height: 250px;
     border-radius: 50%;
     float: left;
-    shape-outside: ellipse(50%);
+    shape-outside: ellipse();
     margin-right: 15px;
     margin-left: 15px;
 }
